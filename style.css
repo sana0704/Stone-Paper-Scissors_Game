@@ -1,0 +1,127 @@
+
+
+body{
+    font-family: cursive;
+}
+h1{
+    text-align: center;
+    background-color: #D2FF72;
+    border-radius: 50px;
+    width: 800px;
+    height: 70px;
+    position: relative;
+    margin-left: 300px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.options{
+
+    border: 2px solid greenyellow;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+
+}
+
+.options p{
+    font-size: xx-large ;
+}
+
+
+#stone:hover{
+    border: 5px solid #54C392;
+    background-color: #D2FF72;
+}
+
+#paper:hover{
+    border: 5px solid #54C392;
+    background-color: #D2FF72;
+}
+
+#scissor:hover{
+    border: 5px solid #54C392;
+    background-color: #D2FF72;
+}
+
+
+.info{
+    /* border: 2px solid forestgreen; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 60px;
+}
+
+.scr{
+    border: 2px solid forestgreen;
+    background-color: #B3E2A7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 600px;
+    border-radius: 10px;
+
+}
+
+.userScore{
+    border: 2px solid #365E32;
+    padding: 5px 5px ;
+    width: 200px;
+    text-align: center;
+}
+.compScore{
+    border: 2px solid #365E32;
+    padding: 5px 5px ;
+    width: 200px;
+    text-align: center;
+}
+
+
+.scores p{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+.msg-container{
+    /* border: 2px solid forestgreen; */
+    width: 800px;
+    /* width: 300px; */
+    height: 100px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color:#D2FF72; */
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+}
+
+.msg-container p{
+    font-size: x-large;
+    padding:10px 10px;
+}
+
